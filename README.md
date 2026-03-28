@@ -93,15 +93,17 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ## Tech Stack
 
-| Category            | Technologies                   |
-| ------------------- | ------------------------------ |
-| Languages           | JavaScript, Python, C++, C     |
-| Frontend            | React, Tailwind CSS, HTML, CSS |
-| Backend             | Node.js, Express, REST APIs    |
-| Databases           | PostgreSQL, MongoDB, Firebase  |
-| Deployment          | Render, Vercel                 |
-| ML / AI             | FastAPI, Hugging Face          |
-| Tools               | Git, Docker, GitHub Actions    |
+| Category       | Technologies                                                                 |
+| -------------- | ---------------------------------------------------------------------------- |
+| Languages      | JavaScript, Python, C++, C                                                   |
+| Frontend       | React, Tailwind CSS, HTML, CSS                                               |
+| Backend        | Node.js, Express, REST APIs                                                  |
+| Databases      | PostgreSQL, MongoDB, Firebase                                                |
+| Deployment     | Render, Vercel                                                               |
+| ML / AI        | FastAPI, Hugging Face, Scikit-learn, Pandas, NumPy                           |
+| ML Concepts    | Supervised Learning, Classification, Model Tuning, Ensemble Learning, NLP    |
+| NLP            | Bag of Words, TF-IDF                                                         |
+| Tools          | Git, Docker, GitHub Actions                                                  |
 
 ## Current Focus
 
