@@ -55,6 +55,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
 * Mastra — Fixed invalid JSON escape handling in PostgreSQL ([#14692](https://github.com/mastra-ai/mastra/pull/14692))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
+* Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
 
 ---
 
@@ -78,6 +79,16 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Improved developer onboarding experience
 * Cleaned up CMake workflow using out-of-source builds
 * Added clear execution steps for examples
+
+### AI / LLM Contributions
+
+#### Haystack (deepset-ai)
+
+* Fixed incorrect structured output handling in NVIDIA integration
+* Migrated deprecated guided_json to response_format schema (aligned with latest API)
+* Debugged real API behavior vs test environment inconsistencies
+* Ensured compatibility across sync and async execution paths
+* Passed full NVIDIA integration test suite (180+ tests)
 
 ---
 
