@@ -52,10 +52,11 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
+* Mastra — Added contiguous trimming mode to TokenLimiterProcessor ([#14801](https://github.com/mastra-ai/mastra/pull/14801))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
-* Mastra — Added minMessages option to delay title generation ([#14778](https://github.com/mastra-ai/mastra/pull/14778#event-24082273644))
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
 * Mastra — Fixed invalid JSON escape handling in PostgreSQL ([#14692](https://github.com/mastra-ai/mastra/pull/14692))
+* Mastra — Added minMessages option to delay title generation ([#14778](https://github.com/mastra-ai/mastra/pull/14778#event-24082273644))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
 
 ---
@@ -72,12 +73,12 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 #### Mastra — Feature + Backend Systems
 
-* Added configurable minMessages threshold for context-aware title generation
-* Prevented premature/generic titles in agent workflows
-* Improved UX and reduced unnecessary LLM calls (token savings)
+* Added contiguous trimming mode to TokenLimiterProcessor to preserve a clean suffix of conversation history under token constraints
+* Introduced configurable minMessages threshold for context-aware title generation
+* Prevented premature/generic titles in agent workflows and reduced unnecessary LLM calls (token savings)
 * Fixed PostgreSQL jsonb failures caused by invalid escape sequences
 * Implemented safe sanitization for invalid escapes and null characters
-* Added tests to ensure database reliability
+* Added tests to ensure reliability across processing and database layers
 
 #### Strapi — API / Backend Fix
 
