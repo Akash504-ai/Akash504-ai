@@ -52,43 +52,46 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
+* Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
+* Mastra — Added minMessages option to delay title generation (#14778)
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
 * Mastra — Fixed invalid JSON escape handling in PostgreSQL ([#14692](https://github.com/mastra-ai/mastra/pull/14692))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
-* Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
 
 ---
 
-### Contribution Highlights
+## Contribution Highlights
 
-#### Strapi (Major Fix)
+#### Haystack (deepset-ai) — AI / LLM Systems
 
-* Fixed incorrect OpenAPI path generation for plugin routes
-* Handled router.prefix and config.prefix edge cases
-* Added unit tests for full coverage
-* Passed 90+ CI checks
+* Fixed incorrect structured output handling in NVIDIA integration
+* Migrated deprecated guided_json → response_format (aligned with latest API standards)
+* Debugged real-world API vs test inconsistencies (critical reliability fix)
+* Ensured compatibility across sync and async execution paths
+* Passed full NVIDIA integration test suite (180+ tests)
 
-#### Mastra (Backend / Database Fix)
+#### Mastra — Feature + Backend Systems
+
+* Added configurable minMessages threshold for context-aware title generation
+* Prevented premature/generic titles in agent workflows
+* Improved UX and reduced unnecessary LLM calls (token savings)
 
 * Fixed PostgreSQL jsonb failures caused by invalid escape sequences
 * Implemented safe sanitization for invalid escapes and null characters
-* Added tests to ensure correctness
+* Added tests to ensure database reliability
 
-#### GeomScale / volesti
+#### Strapi — API / Backend Fix
 
-* Improved developer onboarding experience
-* Cleaned up CMake workflow using out-of-source builds
-* Added clear execution steps for examples
+* Fixed incorrect OpenAPI path generation for plugin routes
+* Handled router.prefix and config.prefix edge cases
+* Prevented broken API documentation in plugin-based setups
+* Added unit tests and passed 90+ CI checks
 
-### AI / LLM Contributions
+#### GeomScale / volesti — Developer Experience
 
-#### Haystack (deepset-ai)
-
-* Fixed incorrect structured output handling in NVIDIA integration
-* Migrated deprecated guided_json to response_format schema (aligned with latest API)
-* Debugged real API behavior vs test environment inconsistencies
-* Ensured compatibility across sync and async execution paths
-* Passed full NVIDIA integration test suite (180+ tests)
+* Improved developer onboarding and documentation clarity
+* Refactored CMake workflow using out-of-source builds
+* Simplified build and execution process for examples
 
 ---
 
