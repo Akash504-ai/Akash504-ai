@@ -75,7 +75,6 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Added configurable minMessages threshold for context-aware title generation
 * Prevented premature/generic titles in agent workflows
 * Improved UX and reduced unnecessary LLM calls (token savings)
-
 * Fixed PostgreSQL jsonb failures caused by invalid escape sequences
 * Implemented safe sanitization for invalid escapes and null characters
 * Added tests to ensure database reliability
