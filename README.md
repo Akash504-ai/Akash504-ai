@@ -52,7 +52,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
-* Cal.com — Fixed negative wait time bug in rate limit error messages (production user-facing fix) (#28765)
+* Cal.com — Fixed negative wait time bug in rate limit error messages (production user-facing fix) ([#28765](https://github.com/calcom/cal.com/pull/28765#event-24269288514))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
 * Mastra — Fixed e2e test hang by adding timeout to dev server startup ([#14955](https://github.com/mastra-ai/mastra/pull/14955))
