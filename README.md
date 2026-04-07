@@ -52,10 +52,11 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
-* Mastra — Fixed e2e test hang by adding timeout to dev server startup ([#14955](https://github.com/mastra-ai/mastra/pull/14955))
+* Cal.com — Fixed negative wait time bug in rate limit error messages (production user-facing fix) (#28765)
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
-* Mastra — Fixed invalid JSON escape handling in PostgreSQL ([#14692](https://github.com/mastra-ai/mastra/pull/14692))
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
+* Mastra — Fixed e2e test hang by adding timeout to dev server startup ([#14955](https://github.com/mastra-ai/mastra/pull/14955))
+* Mastra — Fixed invalid JSON escape handling in PostgreSQL ([#14692](https://github.com/mastra-ai/mastra/pull/14692))
 * Mastra — Added contiguous trimming mode to TokenLimiterProcessor ([#14801](https://github.com/mastra-ai/mastra/pull/14801))
 * Mastra — Added minMessages option to delay title generation ([#14778](https://github.com/mastra-ai/mastra/pull/14778#event-24082273644))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
@@ -63,6 +64,12 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 ---
 
 ## Contribution Highlights
+
+#### Cal.com — Production Systems / API Reliability
+
+* Fixed negative wait time bug in rate limit error messages (user-facing production issue)
+* Ensured safe handling of edge cases where reset timestamps are in the past
+* Improved API correctness and overall user experience in rate limiting logic
 
 #### Haystack (deepset-ai) — AI / LLM Systems
 
