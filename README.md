@@ -99,8 +99,9 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 #### conda-forge — Cross-Platform Reliability
 
-* Fixed UnicodeDecodeError caused by Windows default cp1252 encoding when reading UTF-8 JSON files
-* Enforced explicit UTF-8 decoding to ensure consistent behavior across operating systems
+* Fixed multiple UnicodeDecodeError issues on Windows caused by default cp1252 encoding when reading UTF-8 files
+* Enforced explicit UTF-8 decoding across sidebar JSON and CFEP documentation processing
+* Improved cross-platform consistency for documentation builds and developer workflows
 
 #### GeomScale / volesti — Developer Experience
 
