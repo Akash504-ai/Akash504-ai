@@ -59,7 +59,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Mastra — Fixed invalid JSON escape handling in PostgreSQL ([#14692](https://github.com/mastra-ai/mastra/pull/14692))
 * Mastra — Added contiguous trimming mode to TokenLimiterProcessor ([#14801](https://github.com/mastra-ai/mastra/pull/14801))
 * Mastra — Added minMessages option to delay title generation ([#14778](https://github.com/mastra-ai/mastra/pull/14778#event-24082273644))
-* conda-forge — Fixed UnicodeDecodeError in sidebar JSON handling (cross-platform encoding fix) ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800))
+* conda-forge — Fixed multiple UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding in documentation tooling (cross-platform reliability) ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
 
 ---
