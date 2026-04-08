@@ -97,6 +97,11 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Prevented broken API documentation in plugin-based setups
 * Added unit tests and passed 90+ CI checks
 
+#### conda-forge — Cross-Platform Reliability
+
+* Fixed UnicodeDecodeError caused by Windows default cp1252 encoding when reading UTF-8 JSON files
+* Enforced explicit UTF-8 decoding to ensure consistent behavior across operating systems
+
 #### GeomScale / volesti — Developer Experience
 
 * Improved developer onboarding and documentation clarity
