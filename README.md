@@ -52,7 +52,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
-* Cal.com — Fixed negative wait time bug in rate limit error messages (production user-facing fix) ([#28765](https://github.com/calcom/cal.com/pull/28765#event-24269288514))
+* Cal.com — Fixed rate limit bug and improved documentation clarity & onboarding experience ([#28765](https://github.com/calcom/cal.com/pull/28765), [#28832](https://github.com/calcom/cal.com/pull/28832))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
 * Mastra — Improved backend reliability, LLM workflow efficiency, and test stability through multiple fixes and features ([#14955](https://github.com/mastra-ai/mastra/pull/14955), [#14692](https://github.com/mastra-ai/mastra/pull/14692), [#14801](https://github.com/mastra-ai/mastra/pull/14801), [#14778](https://github.com/mastra-ai/mastra/pull/14778))
@@ -68,6 +68,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Fixed negative wait time bug in rate limit error messages (user-facing production issue)
 * Ensured safe handling of edge cases where reset timestamps are in the past
 * Improved API correctness and overall user experience in rate limiting logic
+* Improved developer documentation clarity, formatting, and onboarding experience
 
 #### Haystack (deepset-ai) — AI / LLM Systems
 
