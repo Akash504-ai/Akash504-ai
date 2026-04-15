@@ -64,57 +64,8 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ---
 
-## Contribution Highlights
-
-#### Hugging Face Diffusers — Python Internals / ML Infrastructure
-
-* Fixed instance isolation bug in profiling utilities by correcting method binding, preventing shared state after deepcopy
-
-#### Cal.com — Production Systems / API Reliability
-
-* Fixed negative wait time bug in rate limit error messages (user-facing production issue)
-* Ensured safe handling of edge cases where reset timestamps are in the past
-* Improved API correctness and overall user experience in rate limiting logic
-* Improved developer documentation clarity, formatting, and onboarding experience
-
-#### Haystack (deepset-ai) — AI / LLM Systems
-
-* Fixed incorrect structured output handling in NVIDIA integration
-* Migrated deprecated guided_json → response_format (aligned with latest API standards)
-* Debugged real-world API vs test inconsistencies (critical reliability fix)
-* Ensured compatibility across sync and async execution paths
-* Passed full NVIDIA integration test suite (180+ tests)
-
-#### Mastra — Feature + Backend Systems
-
-* Added contiguous trimming mode to TokenLimiterProcessor to preserve a clean suffix of conversation history under token constraints
-* Introduced configurable minMessages threshold for context-aware title generation
-* Prevented premature/generic titles in agent workflows and reduced unnecessary LLM calls (token savings)
-* Fixed PostgreSQL jsonb failures caused by invalid escape sequences
-* Implemented safe sanitization for invalid escapes and null characters
-* Added tests to ensure reliability across processing and database layers
-* Fixed e2e test reliability issue where dev server startup could hang indefinitely by introducing timeout safeguards and improved process handling
-
-#### Strapi — Backend Systems / RBAC & API Reliability
-
-* Fixed critical RBAC-related 403 error in countDraftRelations affecting conditional permissions (e.g., "same as creator")
-* Implemented permission-aware populate using sanitizedQuery and populate-builder
-* Ensured correct evaluation of entity-level authorization logic
-* Fixed OpenAPI route prefix handling issues in plugin-based setups
-* Prevented user-facing API and UI errors in both documentation and content manager flows
-* Added comprehensive tests and passed 90+ CI checks across environments
-
-#### conda-forge — Cross-Platform Reliability
-
-* Fixed multiple UnicodeDecodeError issues on Windows caused by default cp1252 encoding when reading UTF-8 files
-* Enforced explicit UTF-8 decoding across sidebar JSON and CFEP documentation processing
-* Improved cross-platform consistency for documentation builds and developer workflows
-
-#### GeomScale / volesti — Developer Experience
-
-* Improved developer onboarding and documentation clarity
-* Refactored CMake workflow using out-of-source builds
-* Simplified build and execution process for examples
+📌 **Detailed contributions (with explanations, impact, and tests):**  
+👉 https://github.com/Akash504-ai/open-source-contributions
 
 ---
 
