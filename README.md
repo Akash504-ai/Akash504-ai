@@ -2,7 +2,7 @@
 
 # Hi, I'm Akash Santra 👋
 
-Software Developer • Open Source Contributor • Backend & Systems • Machine Learning
+Software Developer • Open Source Contributor • Backend Systems • API Security • Machine Learning
 
 [LinkedIn](https://www.linkedin.com/in/akash-santra-5823b42a6/) • [Twitter/X](https://x.com/akashsantra999) • [Email](mailto:santraakash999@gmail.com)
 
@@ -52,12 +52,14 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
+### Featured Pull Requests
+
+* Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
-* Cal.com — Fixed rate limit bug and improved documentation clarity & onboarding experience ([#28765](https://github.com/calcom/cal.com/pull/28765), [#28832](https://github.com/calcom/cal.com/pull/28832))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
-* Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
+* Cal.com — Fixed rate limit bug and improved API correctness & onboarding experience ([#28765](https://github.com/calcom/cal.com/pull/28765), [#28832](https://github.com/calcom/cal.com/pull/28832))
 * Mastra — Improved backend reliability, LLM workflow efficiency, and test stability through multiple fixes and features ([#14955](https://github.com/mastra-ai/mastra/pull/14955), [#14692](https://github.com/mastra-ai/mastra/pull/14692), [#14801](https://github.com/mastra-ai/mastra/pull/14801), [#14778](https://github.com/mastra-ai/mastra/pull/14778))
-* conda-forge — Fixed multiple UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding in documentation tooling (cross-platform reliability) ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
+* conda-forge — Fixed UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding (cross-platform reliability) ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
 
 ---
@@ -93,12 +95,14 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Added tests to ensure reliability across processing and database layers
 * Fixed e2e test reliability issue where dev server startup could hang indefinitely by introducing timeout safeguards and improved process handling
 
-#### Strapi — API / Backend Fix
+#### Strapi — Backend Systems / RBAC & API Reliability
 
-* Fixed incorrect OpenAPI path generation for plugin routes
-* Handled router.prefix and config.prefix edge cases
-* Prevented broken API documentation in plugin-based setups
-* Added unit tests and passed 90+ CI checks
+* Fixed critical RBAC-related 403 error in countDraftRelations affecting conditional permissions (e.g., "same as creator")
+* Implemented permission-aware populate using sanitizedQuery and populate-builder
+* Ensured correct evaluation of entity-level authorization logic
+* Fixed OpenAPI route prefix handling issues in plugin-based setups
+* Prevented user-facing API and UI errors in both documentation and content manager flows
+* Added comprehensive tests and passed 90+ CI checks across environments
 
 #### conda-forge — Cross-Platform Reliability
 
