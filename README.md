@@ -52,6 +52,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
+* Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
 * Cal.com — Fixed rate limit bug and improved documentation clarity & onboarding experience ([#28765](https://github.com/calcom/cal.com/pull/28765), [#28832](https://github.com/calcom/cal.com/pull/28832))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
 * Strapi — Fixed OpenAPI plugin route prefix handling ([#25616](https://github.com/strapi/strapi/pull/25616))
@@ -62,6 +63,10 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 ---
 
 ## Contribution Highlights
+
+#### Hugging Face Diffusers — Python Internals / ML Infrastructure
+
+* Fixed instance isolation bug in profiling utilities by correcting method binding, preventing shared state after deepcopy
 
 #### Cal.com — Production Systems / API Reliability
 
