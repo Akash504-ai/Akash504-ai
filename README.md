@@ -52,8 +52,6 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
-### Featured Pull Requests
-
 * Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
