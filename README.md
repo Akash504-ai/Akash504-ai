@@ -56,7 +56,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
 * Cal.com — Contributions([Link](https://github.com/calcom/cal.diy/issues?q=is%3Apr%20author%3AAkash504-ai))
-* Mastra — Improved backend reliability, adapter consistency, and test stability through multiple fixes and enhancements ([#14955](https://github.com/mastra-ai/mastra/pull/14955), [#14692](https://github.com/mastra-ai/mastra/pull/14692), [#14801](https://github.com/mastra-ai/mastra/pull/14801), [#14778](https://github.com/mastra-ai/mastra/pull/14778), [#15635](https://github.com/mastra-ai/mastra/pull/15635), [#15650](https://github.com/mastra-ai/mastra/pull/15650))
+* Mastra — Contributions([Link](https://github.com/mastra-ai/mastra/issues?q=is%3Apr%20author%3AAkash504-ai))
 * conda-forge — Fixed UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding (cross-platform reliability) ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
 * GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
 
