@@ -53,12 +53,18 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 ### Featured Pull Requests
 
 * Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
+
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
-* Haystack (deepset-ai) — Fixed NVIDIA structured output handling & migrated to response_format schema ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058#issuecomment-4152892721))
-* Cal.com — Contributions([Link](https://github.com/calcom/cal.diy/issues?q=is%3Apr%20author%3AAkash504-ai))
-* Mastra — Contributions([Link](https://github.com/mastra-ai/mastra/issues?q=is%3Apr%20author%3AAkash504-ai))
-* conda-forge — Fixed UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding (cross-platform reliability) ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
-* GeomScale (volesti) — Improved build and run documentation ([#376](https://github.com/GeomScale/volesti/pull/376))
+
+* Haystack (deepset-ai) — Fixed NVIDIA structured output handling and migrated to response_format schema for improved LLM integration reliability ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058))
+
+* Cal.com / Cal.diy — Fixed rate limiting issues, improved API correctness, and resolved UI alignment inconsistencies (PRs: ([Link](https://github.com/calcom/cal.diy/issues?q=is%3Apr%20author%3AAkash504-ai)))
+
+* Mastra — Contributed bug fixes and improvements across core features (PRs: ([Link](https://github.com/mastra-ai/mastra/issues?q=is%3Apr%20author%3AAkash504-ai)))
+
+* conda-forge — Fixed UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding, improving cross-platform reliability ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
+
+* GeomScale (volesti) — Improved build and run documentation for better developer onboarding ([#376](https://github.com/GeomScale/volesti/pull/376))
 
 ---
 
