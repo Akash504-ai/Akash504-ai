@@ -54,6 +54,8 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 * Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
 
+* Supabase — Enforced replica_identity_index for INDEX to prevent invalid SQL and match PostgreSQL behavior ([#45019](https://github.com/supabase/supabase/pull/45019#issuecomment-4338332900))
+
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
 
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling and migrated to response_format schema for improved LLM integration reliability ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058))
