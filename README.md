@@ -52,9 +52,9 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ### Featured Pull Requests
 
-* Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
+* Supabase — Fixed cross-schema index collision in pg-meta by adding schema-qualified joins, ensuring accurate index metadata; enforced replica_identity_index validation for INDEX to prevent invalid SQL and align with PostgreSQL behavior ([#45019](https://github.com/supabase/supabase/pull/45019#issuecomment-4338332900), [#45374](https://github.com/supabase/supabase/pull/45374#event-25140104750))
 
-* Supabase — Enforced replica_identity_index for INDEX to prevent invalid SQL and match PostgreSQL behavior ([#45019](https://github.com/supabase/supabase/pull/45019#issuecomment-4338332900))
+* Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
 
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
 
