@@ -54,6 +54,8 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 * Supabase — Fixed cross-schema index collision in pg-meta by adding schema-qualified joins, ensuring accurate index metadata; enforced replica_identity_index validation for INDEX to prevent invalid SQL and align with PostgreSQL behavior (PRs: ([Link](https://github.com/supabase/supabase/issues?q=is%3Apr%20author%3AAkash504-ai)))
 
+* PostHog — Fixed missing DMARC configuration in Domain Connect email verification templates, improving automatic DNS setup reliability for email connectors and preventing verification failures ([#54159](https://github.com/PostHog/posthog/pull/54159))
+
 * Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
 
 * Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
