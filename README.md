@@ -30,6 +30,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 [![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://chat-app-sooty-mu.vercel.app/)
 
 * Real-time chat with Socket.io (1-1 + group chat)
+* GitHub Actions CI pipelines with automated frontend/backend validation
 * AI chatbot integration (Groq API)
 * ML-based moderation (toxicity + spam detection)
 * Voice/video calling (ZegoCloud)
@@ -95,7 +96,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 | Frontend       | React, Tailwind CSS, HTML, CSS                                               |
 | Backend        | Node.js, Express, REST APIs                                                  |
 | Databases      | PostgreSQL, MongoDB, Firebase                                                |
-| Deployment     | Render, Vercel                                                               |
+| Deployment & DevOps | Render, Vercel, GitHub Actions                                          |
 | ML / AI        | FastAPI, Hugging Face, Scikit-learn, Pandas, NumPy                           |
 | ML Concepts    | Supervised Learning, Classification, Model Tuning, Ensemble Learning, NLP    |
 | NLP            | Bag of Words, TF-IDF                                                         |
