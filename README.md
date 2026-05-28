@@ -73,7 +73,7 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 ---
 
-📌 **Detailed contributions (with explanations, impact, and tests):**  
+📌 **Detailed contributions :**  
 👉 https://github.com/Akash504-ai/open-source-contributions
 
 ---
