@@ -63,6 +63,8 @@ I’m Akash, a developer focused on backend systems, machine learning, developer
 
 * Haystack (deepset-ai) — Fixed NVIDIA structured output handling and migrated to response_format schema for improved LLM integration reliability ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058))
 
+* Future AGI — Fixed an authentication security flaw where revoked or expired API keys could still authenticate; added regression tests to enforce correct API key lifecycle validation and prevent future regressions ([#621](https://github.com/future-agi/future-agi/pull/621#event-26468550098))
+
 * Cal.com / Cal.diy — Fixed rate limiting issues, improved API correctness, and resolved UI alignment inconsistencies (PRs: ([Link](https://github.com/calcom/cal.diy/issues?q=is%3Apr%20author%3AAkash504-ai)))
 
 * Mastra — Contributed bug fixes and improvements across core features (PRs: ([Link](https://github.com/mastra-ai/mastra/issues?q=is%3Apr%20author%3AAkash504-ai)))
