@@ -63,7 +63,7 @@ I occasionally write about things I'm building, learning, and exploring:
 <br>
 📌 [Dev.to Profile](https://dev.to/akash_santra_3c96613546c6)
 
-What Keeps Me Busy : Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
+What Keeps Me Busy: Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
 <br>
 So yeah — "The rabbit holes keep getting deeper, and I don't plan on climbing out anytime soon."
 
