@@ -6,7 +6,7 @@ My journey started with web development, machine learning, and a lot of time spe
 
 Then I discovered open source — and honestly, I fell in love with it.
 
-Since then I've contributed to projects like:
+Since then I've contributed to projects across developer tools, AI, and infrastructure, including:
 * Strapi
 * Supabase
 * PostHog
@@ -16,7 +16,8 @@ Since then I've contributed to projects like:
 * Future AGI
 * Cal.com
 * conda-forge
-* GeomScale
+
+...and many more.
 
 One thing I love about open source is the people.
 
@@ -62,7 +63,7 @@ I occasionally write about things I'm building, learning, and exploring:
 <br>
 📌 [Dev.to Profile](https://dev.to/akash_santra_3c96613546c6)
 
-What I Enjoy : Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
+What Keeps Me Busy : Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
 <br>
 So yeah — "The rabbit holes keep getting deeper, and I don't plan on climbing out anytime soon."
 
