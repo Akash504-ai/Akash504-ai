@@ -39,10 +39,10 @@ DSA was where it all started.
 
 ### Things I've Built
 
-* PASO — AI-powered real-time chat platform
-* Food Delivery Platform — Real-time food ordering and delivery system
-* DailyFit — Full-stack e-commerce platform
-* Nexus — AI resume analyzer and interview preparation platform
+* [PASO](https://github.com/CodePlaygroundHub/paso-chat-app) — AI-powered real-time chat platform
+* [Foodigo](https://github.com/Akash504-ai/FOOD-DELIVERY-APPP) — Real-time food ordering and delivery system
+* [DailyFit](https://github.com/CodePlaygroundHub/E.com-app) — Full-stack e-commerce platform
+* [Nexus](https://github.com/CodePlaygroundHub/Resume-Analysis) — AI resume analyzer and interview preparation platform
 
 ### Tech I Spend Most Of My Time With
 
