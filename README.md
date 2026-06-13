@@ -16,6 +16,7 @@ Since then I've contributed to projects like:
 * Future AGI
 * Cal.com
 * conda-forge
+* GeomScale
 
 One thing I love about open source is the people.
 
