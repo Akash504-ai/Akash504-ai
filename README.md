@@ -1,115 +1,68 @@
-<div align="center">
+Hey there 👋
+<br>
+I'm Akash. Most of my free time somehow ends up on GitHub — opening issues, fixing bugs, reviewing code, or falling down yet another open-source rabbit hole. It probably explains why I've developed a bad habit of turning "I'll just fix this small bug" into a three-hour deep dive through someone else's codebase.
+<br>
+My journey started with web development, machine learning, and a lot of time spent solving DSA problems. While DSA taught me how to think, open source taught me how real-world software is built. I spent a lot of time building apps, breaking them to build them better, and of course learning from every mistake.
 
-# Hi, I'm Akash Santra 👋
+Then I discovered open source — and honestly, I fell in love with it.
 
-Software Developer • Open Source Contributor • Backend Systems • API Security • Machine Learning
+Since then I've contributed to projects like:
+* Strapi
+* Supabase
+* PostHog
+* Hugging Face Diffusers
+* Haystack
+* Mastra
+* Future AGI
+* Cal.com
+* conda-forge
 
-[LinkedIn](https://www.linkedin.com/in/akash-santra-5823b42a6/) • [Twitter/X](https://x.com/akashsantra999) • [Email](mailto:santraakash999@gmail.com)
+One thing I love about open source is the people.
 
-</div>
+Along the way, I've had maintainers review my code, discuss ideas with me, recognize my contributions, and even trust me with security reports. Some experiences still feel surreal — from a Mastra co-founder personally reaching out to me on Discord and gifting me their AI Agent Engineering book, to founders and CEOs inviting me to explore their codebases and contribute to their projects.
 
----
+I also discovered and responsibly reported a security vulnerability in PostHog. The team fixed the issue, appreciated the report, and later sent me store credit (which quickly became a PostHog t-shirt 😄).
 
-## About Me
+It's one of the things I love most about open source: 
+> you never know where a small contribution might lead.
 
-I’m Akash, a developer focused on backend systems, machine learning, developer tools, and open source.
+### Open Source
+The contribution list keeps growing — and it won't stop.
+<br>
+📌 [Open Source Archive](https://github.com/Akash504-ai/open-source-contributions)
 
-* Contributing to large-scale open source projects like Strapi and Mastra
-* Interested in backend architecture, APIs, infrastructure, and ML systems
-* Learning AI systems, LLM tooling, and distributed systems
-* Ask me about Node.js, JavaScript, PostgreSQL, MongoDB, MySQL, and open source workflows
-* Goal: Become a strong systems and software engineer
+### Problem Solving
 
----
+DSA was where it all started.
+<br>
+📌 [Problem Solving Profile](https://codolio.com/profile/FDhQ09ea)
 
-## Featured Projects
+### Things I've Built
 
-### PASO – AI-Powered Real-Time Chat App
+* PASO — AI-powered real-time chat platform
+* Food Delivery Platform — Real-time food ordering and delivery system
+* DailyFit — Full-stack e-commerce platform
+* Nexus — AI resume analyzer and interview preparation platform
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Akash504-ai/paso-chat-app)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://chat-app-sooty-mu.vercel.app/)
+### Tech I Spend Most Of My Time With
 
-* Real-time chat with Socket.io (1-1 + group chat)
-* GitHub Actions CI pipelines with automated frontend/backend validation
-* AI chatbot integration (Groq API)
-* ML-based moderation (toxicity + spam detection)
-* Voice/video calling (ZegoCloud)
-* Full admin dashboard with analytics
+Node.js • JavaScript • TypeScript • PostgreSQL • MongoDB • React • Python • AI/ML
 
-### Nexus – AI Resume Analyzer & Interview Platform
+### Currently Exploring
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Akash504-ai/Resume-Analysis)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://resume-analysis-gray-five.vercel.app/)
-
-* Resume parsing with NLP + ML scoring
-* Skill gap detection and job recommendations
-* AI-generated interview questions (LLM-based)
-* Dashboard with analytics and progress tracking
-* Real-time chat + community features
-
----
-
-## Open Source Contributions
-
-### Featured Pull Requests
-
-* Supabase — Fixed cross-schema index collision in pg-meta by adding schema-qualified joins, ensuring accurate index metadata; enforced replica_identity_index validation for INDEX to prevent invalid SQL and align with PostgreSQL behavior (PRs: ([Link](https://github.com/supabase/supabase/issues?q=is%3Apr%20author%3AAkash504-ai)))
-
-* PostHog — Fixed missing DMARC configuration in Domain Connect email verification templates, improving automatic DNS setup reliability for email connectors and preventing verification failures ([#54159](https://github.com/PostHog/posthog/pull/54159))
-
-* Strapi — Fixed critical RBAC-related 403 error in countDraftRelations and resolved OpenAPI plugin route prefix issues, improving API correctness, authorization handling, and developer experience ([#25977](https://github.com/strapi/strapi/pull/25977), [#25616](https://github.com/strapi/strapi/pull/25616))
-
-* Hugging Face Diffusers — Fixed instance isolation bug in profiling utilities caused by incorrect bound method decoration (deepcopy + descriptor issue) ([#13471](https://github.com/huggingface/diffusers/pull/13471))
-
-* Haystack (deepset-ai) — Fixed NVIDIA structured output handling and migrated to response_format schema for improved LLM integration reliability ([#3058](https://github.com/deepset-ai/haystack-core-integrations/pull/3058))
-
-* Future AGI — Fixed an authentication security flaw where revoked or expired API keys could still authenticate; added regression tests to enforce correct API key lifecycle validation and prevent future regressions ([#621](https://github.com/future-agi/future-agi/pull/621#event-26468550098))
-
-* Cal.com / Cal.diy — Fixed rate limiting issues, improved API correctness, and resolved UI alignment inconsistencies (PRs: ([Link](https://github.com/calcom/cal.diy/issues?q=is%3Apr%20author%3AAkash504-ai)))
-
-* Mastra — Contributed bug fixes and improvements across core features (PRs: ([Link](https://github.com/mastra-ai/mastra/issues?q=is%3Apr%20author%3AAkash504-ai)))
-
-* conda-forge — Fixed UnicodeDecodeError issues on Windows by enforcing UTF-8 encoding, improving cross-platform reliability ([#2800](https://github.com/conda-forge/conda-forge.github.io/pull/2800), [#2799](https://github.com/conda-forge/conda-forge.github.io/pull/2799))
-
-* GeomScale (volesti) — Improved build and run documentation for better developer onboarding ([#376](https://github.com/GeomScale/volesti/pull/376))
+* Open Source
+* Backend Engineering
+* System Design
+* AI & LLM Systems
 
 ---
 
-📌 **Detailed contributions :**  
-👉 https://github.com/Akash504-ai/open-source-contributions
+I occasionally write about things I'm building, learning, and exploring:
+<br>
+📌 [Dev.to Profile](https://dev.to/akash_santra_3c96613546c6)
 
----
+What I Enjoy : Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
+<br>
+So yeah — "The rabbit holes keep getting deeper, and I don't plan on climbing out anytime soon."
 
-## Contribution Areas
-
-* Backend systems and API design
-* AI tooling and LLM workflows
-* Database reliability (PostgreSQL, JSON handling)
-* Testing and edge-case handling
-* Developer experience improvements
-
----
-
-## Tech Stack
-
-| Category       | Technologies                                                                 |
-| -------------- | ---------------------------------------------------------------------------- |
-| Languages      | JavaScript, Python, C++, C                                                   |
-| Frontend       | React, Tailwind CSS, HTML, CSS                                               |
-| Backend        | Node.js, Express, REST APIs                                                  |
-| Databases      | PostgreSQL, MongoDB, Firebase                                                |
-| Deployment & DevOps | Render, Vercel, GitHub Actions                                          |
-| ML / AI        | FastAPI, Hugging Face, Scikit-learn, Pandas, NumPy                           |
-| ML Concepts    | Supervised Learning, Classification, Model Tuning, Ensemble Learning, NLP    |
-| NLP            | Bag of Words, TF-IDF                                                         |
-| Tools          | Git, Docker, GitHub Actions                                                  |
-
-## Current Focus
-
-* Scaling open source contributions
-* Backend and infrastructure deep dive
-* Exploring AI and system design
-
----
-
-⭐ If you like my work, consider following or checking out my repositories
+If you're building something interesting, fixing weird bugs, or just want to talk tech, let's connect.
