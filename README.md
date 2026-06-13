@@ -41,9 +41,9 @@ DSA was where it all started.
 ### Things I've Built
 
 * [PASO](https://github.com/CodePlaygroundHub/paso-chat-app) — AI-powered real-time chat platform
+* [Nexus](https://github.com/CodePlaygroundHub/Resume-Analysis) — AI resume analyzer and interview preparation platform
 * [Foodigo](https://github.com/Akash504-ai/FOOD-DELIVERY-APPP) — Real-time food ordering and delivery system
 * [DailyFit](https://github.com/CodePlaygroundHub/E.com-app) — Full-stack e-commerce platform
-* [Nexus](https://github.com/CodePlaygroundHub/Resume-Analysis) — AI resume analyzer and interview preparation platform
 
 ### Tech I Spend Most Of My Time With
 
