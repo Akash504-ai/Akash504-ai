@@ -5,6 +5,8 @@ I'm Akash. Most of my free time somehow ends up on GitHub — opening issues, fi
 My journey started with web development, machine learning, and a lot of time spent solving DSA problems. While DSA taught me how to think, open source taught me how real-world software is built. I spent a lot of time building apps, breaking them to build them better, and of course learning from every mistake.
 
 Then I discovered open source — and honestly, I fell in love with it.
+<br>
+📌 **[Portfolio](https://my-portfolio-one-roan-33.vercel.app/)** 
 
 Since then I've contributed to projects across developer tools, AI, and infrastructure, including:
 * Strapi
