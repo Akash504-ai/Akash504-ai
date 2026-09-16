@@ -43,6 +43,7 @@ DSA was where it all started.
 
 ### Things I've Built
 
+* [CogniYard](https://github.com/Akash504-ai/CogniYard.git) — AI-powered end-to-end supply-chain platform for procurement, logistics, and finance.
 * [PASO](https://github.com/CodePlaygroundHub/paso-chat-app) — AI-powered real-time chat platform
 * [Nexus](https://github.com/CodePlaygroundHub/Resume-Analysis) — AI resume analyzer and interview preparation platform
 * [Foodigo](https://github.com/Akash504-ai/FOOD-DELIVERY-APPP) — Real-time food ordering and delivery system
