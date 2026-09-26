@@ -63,11 +63,12 @@ Node.js • JavaScript • TypeScript • PostgreSQL • MongoDB • React • P
 ---
 
 I occasionally write about things I'm building, learning, and exploring:
-<br>
-📌 [Dev.to Profile](https://dev.to/akash_santra_3c96613546c6)
 
-What Keeps Me Busy: Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
-<br>
+📌 [Medium](https://medium.com/@santraakash999) · [Dev.to](https://dev.to/akash_santra_3c96613546c6)
+
+**What Keeps Me Busy:** Reading unfamiliar codebases, finding weird edge cases, fixing things that break in unexpected ways, and learning something new every time I open a pull request.
+
 So yeah — "The rabbit holes keep getting deeper, and I don't plan on climbing out anytime soon."
 
 If you're building something interesting, fixing weird bugs, or just want to talk tech, let's connect.
+
