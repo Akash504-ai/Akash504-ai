@@ -6,7 +6,7 @@ My journey started with web development, machine learning, and a lot of time spe
 
 Then I discovered open source — and honestly, I fell in love with it.
 <br>
-📌 **[Portfolio](https://my-portfolio-one-roan-33.vercel.app/)** 
+📌 **[Portfolio](https://my-portfolio-one-roan-33.vercel.app/)**  
 
 Since then I've contributed to projects across developer tools, AI, and infrastructure, including:
 * Strapi
